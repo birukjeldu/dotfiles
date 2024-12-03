@@ -32,3 +32,6 @@ This is a my configuration for Zellij using `Alt` as the primary modifier key. I
 - **`s`**: Enter scroll mode.
 - **`o`**: Launch or focus the session manager plugin.
 - **`q`**: Quit zellij.
+- **`d`**: Detach.
+- **`r`**: Rename Tab.
+- **`e`**: To switch between floating pane to an embeded one.
