@@ -7,7 +7,7 @@ This is a my configuration for Zellij using `Alt` as the primary modifier key. I
 - **`Alt + Right`**: Create a new pane to the right.
 - **`Alt + Up`**: Create a new pane above.
 - **`Alt + Down`**: Create a new pane below.
-- **`Alt + x`**: Close the focused pane.
+- **`Alt + x`**: Close the focused (pane or tab).
 - **`Alt + w`**: Toggle floating panes.
 - **`Alt + t`**: Create a new tab.
 - **`Alt + h`**: Move focus left (panes or tabs).
