@@ -1,7 +1,7 @@
 # Zellij Keybindings (Alt-based)
 
 This is a my configuration for Zellij using `Alt` as the primary modifier key. It helps to minimize conflicts with Neovim, that often use `Ctrl` as a primary modifier.
-#### Basic Navigation**
+#### Basic Navigation
 
 - **`Alt + Left`**: Create a new pane to the left.
 - **`Alt + Right`**: Create a new pane to the right.
@@ -21,7 +21,7 @@ This is a my configuration for Zellij using `Alt` as the primary modifier key. I
 - **`Alt + i`**: Move the current tab left.
 - **`Alt + o`**: Move the current tab right.
 
-#### tmux Modes (Prefix `Ctrl+b`)**
+#### tmux Modes (Prefix `Ctrl+b`)
 	
 - **`Esc`**: Exit tmux mode.
 - **`g`**: Enter locked mode.
