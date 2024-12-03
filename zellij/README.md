@@ -20,6 +20,7 @@ This is a my configuration for Zellij using `Alt` as the primary modifier key. I
 - **`Alt + ]`**: Switch to the next layout.
 - **`Alt + i`**: Move the current tab left.
 - **`Alt + o`**: Move the current tab right.
+- **`Alt + s`**: To get into Scroll mode.   //we can use hjkl or u,d to navigate
 
 #### tmux Modes (Prefix `Ctrl+b`)
 	
