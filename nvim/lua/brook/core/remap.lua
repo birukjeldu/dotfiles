@@ -22,5 +22,5 @@ keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }
 keymap.set("n", "<leader>w", "<cmd>w<CR>", { desc = "Save file" })
 keymap.set("n", "<leader>q", "<cmd>q<CR>", { desc = "Quit file" })
 
-keymap.set("n", "<leader>ln", "<cmd>set number<CR>", { desc = "Show line numbers" })
+keymap.set("n", "<leader>ln", "<cmd>set norelativenumber<CR>", { desc = "Show line numbers" })
 keymap.set("n", "<leader>lr", "<cmd>set relativenumber<CR>", { desc = "Show relative line numbers" })
