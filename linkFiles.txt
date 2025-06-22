@@ -1,2 +1,3 @@
 ln -s ~/dotfiles/zellij ~/.config/zellij 
 ln -s ~/dotfiles/nvim ~/.config/nvim 
+ln -s ~/dotfiles/.zshrc ~/.zshrc
