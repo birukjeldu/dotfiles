@@ -1,0 +1,99 @@
+@keyframes fadeIn {
+  0% {
+  }
+  100% {
+  }
+}
+
+* {
+  font-family: "Cantarell";
+  font-size: 16px;
+  outline: none;
+  border: none;
+  text-shadow: none;
+  background-color: transparent;
+}
+
+window {
+  all: unset;
+  padding: 2px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.96);
+}
+#inner-box {
+  margin: 0px;
+  padding: 0px;
+}
+#outer-box {
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 5px;
+}
+#scroll {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+#input {
+  all: unset;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 3;
+  background-color: rgba(16, 16, 16, 0.8);
+}
+#input image {
+  border: none;
+  color: #fff;
+}
+#input * {
+  border: none;
+}
+
+#input:focus {
+  outline: none;
+  border: none;
+}
+#text {
+  margin: 0px;
+  border: none;
+  color: rgba(200, 200, 200, 1);
+  outline: none;
+}
+#entry {
+  border: none;
+  margin: 5px;
+  padding-left: 15px;
+}
+#entry arrow {
+  border: none;
+  color: green;
+}
+#entry:selected {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 1px;
+  background-color: rgba(25, 25, 25, 1);
+}
+#icon {
+  background-color: red;
+}
+#entry:selected #text {
+  background-color: rgba(25, 25, 25, 0.5);
+}
+#entry:selected #text {
+  color: #fff;
+}
+#entry:drop(active) {
+  background-color: red !important;
+}
+
+/*
+Changed the colors of the original source file
+Lastly modified on 6/6/2025 by Dimitrios Psaroudakis
+For the icons please find some that you like
+*/
