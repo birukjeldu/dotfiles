@@ -39,3 +39,18 @@ export NVM_DIR="$HOME/.nvm"
 
 #Go config
 export PATH=$PATH:/usr/local/go/bin
+
+# pnpm
+export PNPM_HOME="/home/brook/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# bun completions
+[ -s "/home/brook/.bun/_bun" ] && source "/home/brook/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
