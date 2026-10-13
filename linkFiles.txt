@@ -1,3 +1,4 @@
 ln -s ~/dotfiles/zellij ~/.config/zellij 
 ln -s ~/dotfiles/nvim ~/.config/nvim 
 ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/opencode/opencode.jsonc ~/.config/opencode/opencode.jsonc
